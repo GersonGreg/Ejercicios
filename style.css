@@ -1,0 +1,225 @@
+
+
+*{font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;    
+}
+
+.wraper {
+    display: flex;
+}
+
+.wraper > div {
+    flex: 1;
+  }
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+nav ul a {
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: yellowgreen;
+    padding: 10px 5px;
+    border-right: 2px solid #ededed;
+    display: block;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul a:hover{
+    background-color: yellow;
+
+}
+
+li:last-child a{
+    border-right: none;
+}
+
+
+/*N° 4*/
+
+*{
+    margin: 0;
+
+}
+
+h1{
+   text-align: center;
+   background-color: #00abf0;
+   color: orangered;
+   border-bottom: 2px solid #fff;
+   padding: 30px;
+}
+
+#galeria{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#galeria img {
+    float: left;
+    padding: 1.2em;
+}
+
+#galeria  img:hover{
+    background-color: aqua;
+}
+
+
+
+
+/*ejercicios N°2*/
+.cta-container {
+    background: url('Tigre.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    text-align: center;
+    padding: 60px;
+
+}  
+
+.cta-text {
+    color: #ededed; /* Color del texto oscuro */
+    font-size: 28px;
+    font-weight: bold;
+}
+.cta-button {
+    background-color: #00abf0; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón en blanco */
+    padding: 15px 30px; /* Relleno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 20px;
+    cursor: pointer; /* Cambio de cursor al pasar el ratón */
+    text-transform: uppercase; /* Texto en mayúsculas */
+}
+
+/**ejercicos*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px;
+    padding: 50px;
+}
+
+h1{
+    font-size: 60px;
+    color: yellowgreen;
+}
+.emoji-list {
+    list-style: none;
+    padding: 30px;
+}
+
+.emoji-list li {
+    font-size: 70px;
+    color: cornflowerblue;
+    margin: 10px 20px;
+    position: relative;
+}
+
+.emoji-list li::before{
+    content: "😻";
+    font-size: 24px;
+    margin-right: 10px;
+    
+}
+
+/*estilos generales*/
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/*estilos de la tabla*/
+
+.styled-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    caption-side: bottom;
+}
+.styled-table caption{
+    font-size: 35px;
+    padding: 10px;
+}
+.styled-table th,.styled-table td {
+    padding: 20px;
+}
+
+.styled-table th {
+    background-color: aquamarine;
+    color: blueviolet;
+}
+
+.styled-table th , .styled-table td {
+    border: 1px solid #00abf0;
+}
+
+.styled-table tbody, tr:nth-child(odd) {
+    background-color: crimson;
+
+}
+.styled-table tbody tr:hover{
+    background-color: darkblue;
+}
+
+.styled-table tbody tr td:nth-child(3)::after{
+    content: "$";
+}
+
+
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 17px;
+
+}
+.btn-normal {
+    background-color: deepskyblue;
+    color: #ededed;
+
+}
+
+.btn-outline {
+    border: 2px solid #00abf0;
+    background-color: transparent;
+    color:aqua;
+}
+
+.btn-alerta {
+    background-color: chartreuse;
+    color: hotpink;
+}
+
+.btn-normal:hover,
+.btn-outline:hover,
+.btn-alerta:hover {
+    transform: scale(1.1);
+}
+
+.btn-normal{
+    cursor: grab;
+}
+
+.btn-outline{
+    cursor: crosshair;
+}
+
+.btn-alerta{
+    cursor: help;
+}
+
